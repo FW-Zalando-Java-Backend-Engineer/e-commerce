@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Data // Generates all getters and setters, equals() , toString(), hashCode()
 @NoArgsConstructor
 @AllArgsConstructor
-@RequiredArgsConstructor // exclude id from all-args constructor
+//@RequiredArgsConstructor // exclude id from all-args constructor
 @Document(collection = "products")
 public class Product {
     /** Unique identifier for the product. */
